@@ -30,13 +30,22 @@ When I view all records for my account, the API should return a list of all reco
 To run the BallastLane  API, follow these steps:
 
 Clone the repository to your local machine.
-Ensure that you have the latest version of Docker installed.
-In the project root directory, run the command docker-compose up.
+   
+    git clone https://github.com/aferrercrafter/ballastlane.git
+   
+Navigate to the src folder
+
+    cd src
+   
+Ensure that you have the latest version of Docker installed and Run the docker compose command up  
+
+    docker-compose up --build -d
+
 Navigate to http://localhost:3000 in your web browser to access a simple react application taht consumes the API.
 Or you could enter either
-https://localhost:7007/swagger/index.html
-
-http://localhost:7006/swagger/index.html
+    
+    https://localhost:7007/swagger/index.html
+    http://localhost:7006/swagger/index.html
 
 For getting access to the swagger definition of the API, and directly consume the endpoints. Take in consideration that Records endpoint need authentication, so first you wil need to consume endpoints:
 
