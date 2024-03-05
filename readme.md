@@ -1,7 +1,7 @@
 # Records API
 
 ## User Story
-As a user, I want to use the BallastLane API to create, view, update, and delete records for my account so that I can manage my personal information. I expect that:
+As a user, I want to use the Records API to create, view, update, and delete records for my account so that I can manage my personal information. I expect that:
 
 * Register for an account with a unique username and email address, and a password that meets certain criteria, so that I can access protected features of the application.
 * Log in to my account with my registered email address and password, so that I can access protected features of the application
@@ -13,7 +13,7 @@ When I view all records for my account, the API should return a list of all reco
 * Additionally, when I create a new user account, I must provide a unique  and valid email address. If any of these requirements are not met, the API should return a 400 Bad Request status code with a message indicating the error.
 
 ## Methodologies Used
-* The BallastLane  API was developed using a test-driven development (TDD) approach, which ensured that all code was thoroughly tested before being implemented. 
+* The Records  API was developed using a test-driven development (TDD) approach, which ensured that all code was thoroughly tested before being implemented. 
 * The project also applies Clean Architecture by dividing the codebase into layers that are independent of each other. The layers are:
 
     * Domain: The core business logic of the application, where the entities, and business rules reside.
@@ -27,11 +27,11 @@ When I view all records for my account, the API should return a list of all reco
     * Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 ## Getting Started
-To run the BallastLane  API, follow these steps:
+To run the Records  API, follow these steps:
 
 Clone the repository to your local machine.
    
-    git clone https://github.com/aferrercrafter/ballastlane.git
+    git clone https://github.com/aferrercrafter/Records.git
    
 Navigate to the src folder
 
@@ -68,7 +68,7 @@ The token field is the one needed on the Authorize option of swagger, and from t
 
 ### API Endpoints 
 
-The BallastLane  API provides the following endpoints:
+The Records  API provides the following endpoints:
 
     
     GET /records
