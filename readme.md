@@ -1,4 +1,4 @@
-# BallastLane API
+# Records API
 
 ## User Story
 As a user, I want to use the BallastLane API to create, view, update, and delete records for my account so that I can manage my personal information. I expect that:
